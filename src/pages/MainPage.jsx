@@ -1,28 +1,19 @@
-// src/components/MainPage.js
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, ComputersCanvas, Skills, HeroSection, Footer, Header,   GetStarted, Explore, Insights, SecondSection, TechnologySection, CrewPage } from "../components";
-// export { Insights } from './Insights';
-import DataDashboard from "../pages/DataDashboard";
-
-
+import {
+  Contact,
+  Hero,
+  Explore,
+  TechnologySection,
+  StarsCanvas,
+} from "../components";
 
 const MainPage = () => {
   return (
-    <div className='relative z-0 bg-primary'>
-      {/* <Navbar /> */}
+    <div className="relative z-0 bg-primary">
       <Hero />
-      {/* <Tech /> */}
-      {/* <Header/> */}
-      {/* <SecondSection/> */}
-      <TechnologySection/>
-      {/* <GetStarted/> */}
-      {/* <Feedbacks /> */}
+      <TechnologySection />
       <div className="gradient-03 z-0" />
       <Explore />
-      {/* <CrewPage/> */}
-
-      {/* <Works /> */}
-      {/* <Insights/> */}
-        <Contact />
+      <Contact />
       <StarsCanvas />
     </div>
   );

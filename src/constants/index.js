@@ -482,36 +482,25 @@ export const exploreWorlds = [
     imgUrl: '/analytics.png',
     title: 'Analytics',
     path: '/datadashboard',
-
   },
   {
     id: 'world-2',
     imgUrl: '/healthcare.png',
     title: 'Healthcare',
     path: '/medicalai',
-
   },
   {
     id: 'world-3',
     imgUrl: '/ai.png',
     title: 'Generative AI',
     path: '/rdchat',
-
   },
   {
     id: 'world-4',
     imgUrl: '/roi.png',
     title: 'Marketing',
-    path: '/HealthHive',
-
+    path: '/healthhive',
   },
-  // {
-  //   id: 'world-5',
-  //   imgUrl: '/planet-05.png',
-  //   title: 'eCommerce',
-  //   path: '/ecommerce',
-
-  // },
 ];
 
 export const insights = [
